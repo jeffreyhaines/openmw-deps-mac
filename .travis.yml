@@ -21,4 +21,4 @@ before_script:
   - cd build
   - cmake -DCMAKE_BUILD_TYPE=Debug ..
 script:
-  - make -j4 $BUILD_ARTIFACTS
+  - make -j6 $BUILD_ARTIFACTS
