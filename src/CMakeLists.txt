@@ -96,8 +96,8 @@ set(FFMPEG_CONFIGURE_ARGS
 
 ExternalProject_Add(
   ffmpeg
-  URL https://ffmpeg.org/releases/ffmpeg-2.8.1.tar.bz2
-  URL_HASH SHA256=e2ed5ab28dee1af94336739173eb0019afc21a54e38a96f4e3208e94a07866e2
+  URL https://ffmpeg.org/releases/ffmpeg-2.8.7.tar.bz2
+  URL_HASH SHA256=8777ce4a335640fdd13680ba423ef6da330ff5071bfbe27cdbb452379167efe5
 
   SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/ffmpeg
   CONFIGURE_COMMAND ${CONFIGURE_WRAPPER} ${CMAKE_CURRENT_SOURCE_DIR}/ffmpeg/configure ${FFMPEG_CONFIGURE_ARGS}
