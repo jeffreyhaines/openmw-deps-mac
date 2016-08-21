@@ -4,7 +4,7 @@ os:
 env:
   - BUILD_ARTIFACTS=boost
   - BUILD_ARTIFACTS=openscenegraph
-  - BUILD_ARTIFACTS="bullet ffmpeg mygui unshield"
+  - BUILD_ARTIFACTS="bullet ffmpeg mygui SDL2 unshield"
 osx_image: xcode7.3
 branches:
   only:
